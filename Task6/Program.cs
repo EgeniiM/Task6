@@ -15,7 +15,7 @@ namespace Task6
             int countOfRows = (images.Length - rest) / 3;
 
             Console.WriteLine("Вы можете вывести " + countOfRows + " строк");
-           
+            Console.WriteLine("Остаток = " + rest);
         }
     }
 }
