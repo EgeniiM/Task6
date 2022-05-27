@@ -10,6 +10,12 @@ namespace Task6
     {
         static void Main(string[] args)
         {
+            int[] images = new int[52];
+            int rest = images.Length % 3;
+            int countOfRows = (images.Length - rest) / 3;
+
+            Console.WriteLine("Вы можете вывести " + countOfRows + " строк");
+            Console.WriteLine("Остаток = " + rest);
         }
     }
 }
